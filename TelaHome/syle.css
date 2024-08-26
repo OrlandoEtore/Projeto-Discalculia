@@ -1,0 +1,42 @@
+.hero-content{
+    background-image:url(/imagens/Captura\ de\ tela\ 2024-08-20\ 125357.png);
+  
+    width: 500px;
+    height: 80vh;
+    background-size: cover;
+    background-position: center center ;
+    justify-content: center;
+    text-align: center;
+}
+.hero-content{
+    margin: 100px auto 0 auto;
+    width: 80%;
+    text-align: center;
+    color: white;
+}
+
+.hero-content h1{
+    margin: 100px auto 0 auto;
+    font-size: 56px;
+    text-shadow: 2px 2px 2px black;
+
+}
+.hero-content p{
+    margin: 100px auto 0 auto;
+    font-size: 25px;
+    text-shadow: 2px 2px 2px black;
+}
+.footer-height {
+    
+    min-height: 150px; /* Ajuste esta altura conforme a necessidade */
+    padding-top: 40px; /* Aumenta o padding superior para mais espaço */
+    padding-bottom: 40px; /* Aumenta o padding inferior para mais espaço */
+}
+
+h2{
+    font-size:24px;
+    font-family:Inter;
+}
+.navbar {
+    width: 100%; /* Garante que a navbar ocupe 100% da largura */
+}
