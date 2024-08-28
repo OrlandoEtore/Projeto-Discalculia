@@ -1,0 +1,97 @@
+.user-icon {
+    width: 100px; /* Define a largura do ícone */
+    height: 100px; /* Define a altura do ícone */
+    object-fit: cover; /* Garante que a imagem cubra todo o espaço definido sem distorcer */
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden; /* Evita a rolagem horizontal se houver overflow */ 
+    background-color: #D9D9D9;
+}
+
+.navbar {
+    width: 100%; /* Garante que a navbar ocupe 100% da largura */
+}
+
+.user-icon {
+    width: 30px; /* Ajusta o tamanho do ícone do usuário, se necessário */
+    height: 30px;
+}
+.hero-content{
+    background-image:url(/imagens/Captura\ de\ tela\ 2024-08-20\ 125357.png);
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    margin: top 10px;;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.registration-form {
+    width: 50%; /* Ajuste conforme necessário */
+    background-color: rgba(255, 255, 255, 0.9); /* Fundo semi-transparente para o formulário */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.form-control, .btn {
+    margin-top: 10px;
+}
+
+.user-icon {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+}
+.form-container {
+    width: 40%; 
+    padding: 20px;
+    background-color: #fff; 
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: auto; 
+    position: relative;
+    top: 50px; 
+}
+
+.form-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.form-group {
+    flex: 1; 
+    margin-right: 10px; 
+}
+
+.form-group:last-child {
+    margin-right: 0; 
+}
+
+.form-control {
+    width: 100%; 
+    padding: 8px; 
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.btn {
+    width: 100%;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+
+.form-buttons {
+    display: flex;
+    justify-content: center; 
+}
