@@ -4,9 +4,61 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="/TelaRegisterGeral/style.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/TelaRegisterPrefeitura/style.css">
 </head>
 <body>
-    
+
+    <header class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+            <a class="navbar-brand" href="#">DISCALCULANDO</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end m-1" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active ">
+                        <a class="nav-link" href="/TelaHome/index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Jogos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Cadastro</a>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <img src="/imagens/do-utilizador.png" class="rounded float-end user-icon">
+            </div>   
+        </nav>
+    </header>
+    <main>
+        <div class="container-fluid border-dark pt-5 hero-content">
+            <div class="registration-form bg-white p-4 rounded shadow">
+                <h2 class="text-center">Cadastrar Geral</h2>
+                <form>
+                    <div class="form-row">
+                       
+                        <div class="form-group form-buttons">
+                            <a href="/TelaRegisterPrefeitura/index.html" class="btn btn-primary">Cadastrar Prefeitura</a>
+                        </div>
+                        <div class="form-group form-buttons">
+                            <a href="/TelaRegisterProfessor/index.html" class="btn btn-primary">Cadastrar Professor</a>
+                        </div>
+                        <div class="form-group form-buttons">
+                            <a href="/TelaRegisterAluno/main.html" class="btn btn-primary">Cadastrar Aluno</a>
+                        </div>
+                        <div class="form-group form-buttons">
+                            <a href="/TelaRegisterEscola/main.html" class="btn btn-primary">Cadastrar Escola</a>
+                        </div>
+                        
+                </form>           
+            </div>
+        </div>  
+    </main>  
 </body>
 </html>
